@@ -1,0 +1,13 @@
+#In order to keep the new instances, but removing all other resources via the "destroy" command, run those 2 lines:
+--------
+
+terraform state rm aws_instance.be_new
+terraform state rm aws_instance.fe_new
+
+
+
+
+
+
+
+

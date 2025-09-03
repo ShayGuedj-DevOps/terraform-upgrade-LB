@@ -1,14 +1,14 @@
 variable "env" {
-  description = "Environment name (e.g., v6)"
   type        = string
+  description = "Environment name"
 }
 
 variable "old_be_instance_id" {
-  description = "EC2 instance ID of the old BE server"
   type        = string
+  description = "EC2 instance ID of the old BE server"
 }
 
 variable "old_fe_instance_id" {
-  description = "EC2 instance ID of the old FE server"
   type        = string
+  description = "EC2 instance ID of the old FE server"
 }
