@@ -12,4 +12,3 @@ variable "old_fe_instance_id" {
   description = "The EC2 instance ID of the old FE server"
   type        = string
 }
-

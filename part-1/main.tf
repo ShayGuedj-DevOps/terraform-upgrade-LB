@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "us-central-1" # adjust to your region
+  region = "eu-central-1" # adjust to your region
 }
 
 module "upgrade_servers" {
